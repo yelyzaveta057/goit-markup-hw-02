@@ -7,9 +7,14 @@
    color: #fff;
 }
 .nav-block{
-    text-align: justify;
-    width: 1440;
-    height: 72;
+    text-align: left;
+    width: 1440px;
+    height: 72px;
+    background-color: #E7E9FC;
+}
+.address{
+    text-align: right;
+
 }
 .logo{
     text-align: left;
@@ -21,4 +26,23 @@
     background-color: #2E2F42;
     width: 1440px;
     height: 600px;
+    text-align: center;
+}
+.buttom-main{
+    text-align: center;
+}
+.contetn-block{
+    text-align: center;
+}
+.our-team-block{
+    width: 1440px;
+    height: 732px;
+    text-align: center;
+}
+.our-portfolio-section{
+    text-align: center;
+}
+.footer-section{
+    width: 1440px;
+    height: 312px;
 }
