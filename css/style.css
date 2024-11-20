@@ -23,6 +23,8 @@
 }
 .nav-menu{
     text-align: justify;
+    width: 48px;
+    height: 24px;
 }
 .second-block{
     background-color: #2E2F42;
@@ -35,6 +37,11 @@
 }
 .contetn-block{
     text-align: center;
+
+}
+.content-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 .our-team-block{
     width: 1440px;
@@ -47,4 +54,8 @@
 .footer-section{
     width: 1440px;
     height: 312px;
+    background-color: #2E2F42;
+}
+.content-item {
+    width: calc((100%/4) - (400 * 2) / 4);
 }
