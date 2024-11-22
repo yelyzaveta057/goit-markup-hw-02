@@ -80,8 +80,9 @@ cursor: pointer;
     background-color: #404bbf;
     color: #404bbf;
 }
-.contetn-block{
+.contentblock{
     text-align: center;
+    background-color: #FFFFFF;
 
 }
 .content-item{
