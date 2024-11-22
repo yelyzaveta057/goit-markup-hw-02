@@ -74,8 +74,18 @@ cursor: pointer;
     text-align: center;
 
 }
+.content-item{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.02em;
+    color: #2E2F42;
+}
 .content-text{
     font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
     
 }
 .our-team-block{
