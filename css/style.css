@@ -1,7 +1,7 @@
 .body{
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #fff;
+    background-color: #FFFFFF
 }
 
 .logo{
@@ -10,7 +10,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
     
@@ -23,15 +23,36 @@
 }
 .contact{
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.contact .link:hover{
+    color: #404bbf;
+}
+.contact .link:focus{
+    color: #404bbf;
 }
 .nav-block{
     text-align: left;
     background-color: #E7E9FC;
 }
 
-.address{
+.contact-address{
     text-align: right;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
   
+}
+.contact-address .link:hover{
+    color: #404bbf;
+}
+.contact-address .link:focus{
+    color: #404bbf;
 }
 
 .nav-menu .link:hover{
@@ -49,6 +70,8 @@
 .main-text{
     font-family: "Roboto", sans-serif;
     text-align: center;
+    font-size: 56px;
+    letter-spacing: 0.02em;
     color: #fff;
 
 }
@@ -56,10 +79,10 @@
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-weight: 500;
-background: #4d5ae5;
+background-color: #FFFFFF;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.04;
+letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
 
@@ -76,6 +99,8 @@ cursor: pointer;
 }
 .content-item{
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     font-size: 20px;
     line-height: 0.02em;
     color: #2E2F42;
@@ -91,6 +116,14 @@ cursor: pointer;
 .our-team-block{
   background-color: #F4F4FD;
     text-align: center;
+}
+.content-item-ourteam{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 .our-team-posiotion{
     font-size: 16px;
