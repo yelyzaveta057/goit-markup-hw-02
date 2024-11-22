@@ -28,8 +28,8 @@
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.contact .link:hover,
-.contact .link:focus{
+.contact-link:hover,
+.contact-link:focus{
     color: #404bbf;
 
 }
@@ -48,11 +48,6 @@
     letter-spacing: 0.02em;
     color: #434455;
   
-}
-.contact-address .link:hover,
-.contact-address .link:focus{
-    
-    color: #404bbf;
 }
 .first-block{
     background-color: #2E2F42;
@@ -79,8 +74,8 @@ color: #fff;
 cursor: pointer;
 
 }
-.buttom-main .link:hover,
-.buttom-main .link:focus{
+.buttom-main-link:hover,
+.buttom-main-link:focus{
     background-color: #404bbf;
     color: #404bbf;
 }
@@ -94,6 +89,7 @@ cursor: pointer;
     letter-spacing: 0.02em;
     font-size: 20px;
     color: #2E2F42;
+    background-color: #FFFFFF;
 }
 .content-text{
     font-family: "Roboto", sans-serif;
@@ -121,6 +117,12 @@ cursor: pointer;
     line-height: 1.5;
     color: #434455;
     background-color: #FFFFFF;
+}
+.our-team{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-size: 16px;
 }
 .our-portfolio-section{
     text-align: center;
