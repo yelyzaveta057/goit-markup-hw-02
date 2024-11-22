@@ -89,8 +89,13 @@ cursor: pointer;
     
 }
 .our-team-block{
-  
+  background-color: #F4F4FD;
     text-align: center;
+}
+.our-team-posiotion{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .our-portfolio-section{
     text-align: center;
