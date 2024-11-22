@@ -13,6 +13,16 @@
     letter-spacing: 0.03;
     text-transform: uppercase;
     color: #4d5ae5;
+    
+}
+.span{
+    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.contact{
+    font-weight: 500;
 }
 .nav-block{
     text-align: left;
