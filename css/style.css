@@ -44,6 +44,7 @@
 .second-block{
     background-color: #2E2F42;
     text-align: center;
+    line-height: 1.07;
 }
 .main-text{
     font-family: "Roboto", sans-serif;
@@ -54,7 +55,20 @@
 .buttom-main{
     font-family: "Roboto", sans-serif;
     text-align: center;
+    font-weight: 500;
 background: #4d5ae5;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04;
+color: #fff;
+cursor: pointer;
+
+}
+.buttom-main .link:hover{
+    background-color: #404bbf;
+}
+.buttom-main .link:focus{
+    color: #404bbf;
 }
 .contetn-block{
     text-align: center;
