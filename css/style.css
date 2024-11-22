@@ -28,17 +28,18 @@
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.contact .link:hover{
-    color: #404bbf;
-}
+.contact .link:hover,
 .contact .link:focus{
     color: #404bbf;
+
 }
 .nav-block{
     text-align: left;
     background-color: #E7E9FC;
 }
-
+.address{
+    font-style: normal;
+}
 .contact-address{
     text-align: right;
     font-style: normal;
@@ -48,21 +49,12 @@
     color: #434455;
   
 }
-.contact-address .link:hover{
-    color: #404bbf;
-}
+.contact-address .link:hover,
 .contact-address .link:focus{
+    
     color: #404bbf;
 }
-
-.nav-menu .link:hover{
-    color: #404bbf ;
-
-}
-.nav-menu .link:active{
-    color: #404bbf;
-}
-.second-block{
+.first-block{
     background-color: #2E2F42;
     text-align: center;
     line-height: 1.07;
@@ -79,7 +71,7 @@
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-weight: 500;
-background-color: #FFFFFF;
+background-color: #4d5ae5;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
@@ -87,10 +79,9 @@ color: #fff;
 cursor: pointer;
 
 }
-.buttom-main .link:hover{
-    background-color: #404bbf;
-}
+.buttom-main .link:hover,
 .buttom-main .link:focus{
+    background-color: #404bbf;
     color: #404bbf;
 }
 .contetn-block{
@@ -102,7 +93,6 @@ cursor: pointer;
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-size: 20px;
-    line-height: 0.02em;
     color: #2E2F42;
 }
 .content-text{
@@ -128,7 +118,9 @@ cursor: pointer;
 .our-team-posiotion{
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
     color: #434455;
+    background-color: #FFFFFF;
 }
 .our-portfolio-section{
     text-align: center;
@@ -141,4 +133,10 @@ cursor: pointer;
 .footer-text{
     color: #F4F4FD;
     text-align: left;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.span-footer{
+    color: #F4F4FD;
+   
 }
