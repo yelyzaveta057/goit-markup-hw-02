@@ -4,6 +4,13 @@ body{
     background-color: #FFFFFF;
 
 }
+a {
+    text-decoration: none;
+    }
+    
+    ul {
+    list-style: none;
+    }
 
 .logo{
     text-align: left;
